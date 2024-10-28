@@ -3,7 +3,7 @@ layout: post
 title: "UCB review(After Final)"
 subtitle: "quick and informal"
 date: 2024-05-10
-author: "刚考完期末的lfq"
+author: "刚考完期末的Ferrari"
 header-style: text
 tags: [UCB]
 ---
@@ -28,7 +28,5 @@ tags: [UCB]
 
 每天都在吸收阳光，就算是心情不好也有想要咒骂的力气，更别说大多数时候其实都很快乐。打开电脑变成了一件值得期待的事情，虽然不一定每节课都去听了但是至少心里有底气这些知识可以随时都被我获取，帮助也永远在手边。每一天起床都在相信自己有无限可能。
 
-写到这里我爸妈又给我发微信了。每次都好心累。他们能不能别管我。
 
-烦。不写了。
 
