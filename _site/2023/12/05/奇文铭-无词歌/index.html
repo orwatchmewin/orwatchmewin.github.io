@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Far Free">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="【奇文铭】无词歌 - 自由自留地">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="*ooc
+*性转
+">
+    
+    <meta property="article:published_time" content=" 2023-12-05T00:00:00Z">
+    
+    
+    <meta property="article:author" content="Hedwiglam">
+    
+    
+    <meta property="article:tag" content="追星产出">
+    
+    <meta property="article:tag" content="奇文铭">
+    
+    <meta property="article:tag" content="奇文">
+    
+    <meta property="article:tag" content="举世文铭">
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar_tomato.jpg">
+    <meta property="og:url" content="http://localhost:4000/2023/12/05/%E5%A5%87%E6%96%87%E9%93%AD-%E6%97%A0%E8%AF%8D%E6%AD%8C/">
+    <meta property="og:site_name" content="自由自留地">
+
+    <title>【奇文铭】无词歌 - 自由自留地</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2023/12/05/%E5%A5%87%E6%96%87%E9%93%AD-%E6%97%A0%E8%AF%8D%E6%AD%8C/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+
+    <!-- Google AdSense -->
+    <script data-ad-client="ca-pub-6487568398225121" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
+    
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">My Hogwarts</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg-sunrise.JPG" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/home-bg-sunrise.JPG');
+        background: ;
+    }
+
+    
+</style>
+
+
+
+
+<header class="intro-header style-text" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=%E8%BF%BD%E6%98%9F%E4%BA%A7%E5%87%BA" title="追星产出">追星产出</a>
+                        
+                        <a class="tag" href="/archive/?tag=%E5%A5%87%E6%96%87%E9%93%AD" title="奇文铭">奇文铭</a>
+                        
+                        <a class="tag" href="/archive/?tag=%E5%A5%87%E6%96%87" title="奇文">奇文</a>
+                        
+                        <a class="tag" href="/archive/?tag=%E4%B8%BE%E4%B8%96%E6%96%87%E9%93%AD" title="举世文铭">举世文铭</a>
+                        
+                    </div>
+                    <h1>【奇文铭】无词歌</h1>
+                    
+                    <h2 class="subheading">“她是我哥的女朋友。”</h2>
+                    <span class="meta">Posted by Hedwiglam on December 5, 2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<p>*ooc
+*性转</p>
+
+<p>“她是我哥的女朋友。”</p>
+
+<hr />
+
+<p>我中考发挥得好，考上了省城的高中，恰好是堂哥在念的那所。一家人高高兴兴地把我送到伯伯婶婶家里，把我托付给他们。我哥男子汉大丈夫，小小身躯热血沸腾二话不说一拍胸脯就对着我爸妈保证：叔叔婶婶请放心，我一定罩着陈浚铭！我哪需要人罩，在初中可只有我当霸王的份。但人生地不熟，作为新来的，还是有点蔫巴。虽然不一定会被欺负，但有大腿不抱是傻叉，所以开学那天我还是屁颠屁颠跑去跟着我哥认识了一圈他的朋友们。</p>
+
+<p>“这是张桂源，篮球社的，你不是爱打篮球吗，找他就行。”“张函瑞，合唱团团长，天籁之音，听到即赚到，但日常得小心耳朵聋掉。”“汪浚熙，动漫社的。弟你可得小心点他，这人最爱抓帅哥”我哥偷偷在我耳边说了下半句。
+话还没说完，对面就说：”咱弟这么帅，左少你地位不保啊！”我憋着没敢抬头看对面一眼。</p>
+
+<p>我知道我哥是出名的社交达人，可没想到交的朋友多样性这么广泛。</p>
+
+<p>那个叫张函瑞的学姐朝一旁另一位穿着白裙子的学姐努努嘴，和我哥使眼色说：“左奇函，你再不介绍波雯，可别怪人家生气了哈。”</p>
+
+<p>我看过去。可能因为还没正式开学，所以学姐穿的不是校服，而是一件看起来应该摆在商店橱窗里的棉质白裙子，全白的。怀里抱着一本白色的书，封面上写着《情人》。</p>
+
+<p>“你可别挑拨离间，我们波雯什么时候生过气！”我哥往那个学姐的方向挑了挑眉，“来，这是你杨波雯学姐，是学生会文艺部的，你要是忘记带校牌就找这个姐姐求情。”</p>
+
+<p>“你再乱说一个教坏小孩试试呢”杨波雯微微瞪大了圆圆的眼睛，作势要去打我哥。又隔着两个人的身位探头和我说：“别听他乱说。要是你喜欢跳舞或者弹钢琴的话，我可以教你。”她说话的时候好像总是带着笑，白生生的，但嘴巴和脸颊又是粉粉的。一眼就能看出是省城长大的。我看着也不由自主地笑。</p>
+
+<p>“好啊，谢谢杨波雯学姐。”谁能有办法对这样温柔的学姐说出一个不字。</p>
+
+<p>“你怎么不先教我，还先教上我弟了，波雯老师能不能讲究一下先来后到啊。”
+“是哪个左大忙人每天忙着到处厮混都找不着影，怎么还在这倒打一耙。”</p>
+
+<p>我看他们一来一回聊天，杨波雯逐渐笑倒在我哥身上，作势要打他，但那拳头看起来实在没什么信服度。我实在觉得有点没趣，找机会溜回了自己班。</p>
+
+<p>省城高中虽然压力大，但秉持着身体好的猪生产力更高这一原则，体育课倒是节节不落。
+不愧是省城的高中，连压榨劳动力都讲究科学规律。</p>
+
+<p>因为我哥的缘故，也因为都是新生，我和大家熟得很快。好几次路过女生堆都能听到我的名字，也能感受到她们的目光。但我不好意思回看她们，总是埋头看地走路。不像我哥那样，对着哪个女生都能笑得很自如。</p>
+
+<p>我正埋头赶路呢，感觉前面有一个影子停在了我的面前，还有一股牛奶沐浴露味。
+我没用过沐浴露，一直用的是香皂，到我哥家才知道有沐浴露这东西。</p>
+
+<p>抬头发现是杨波雯学姐，我不知道竟然和她同一节体育课。她凑近，圆圆的眼睛弯弯地笑成花瓣：“小陈同学，想什么呢这么出神。”
+我尴尬，我发糗，我害羞，我想要钻进硅胶跑道的颗粒缝隙里无影无踪…但生活没有幻影移形咒，我认命地冲她咧嘴笑了一下，然后逃走。</p>
+
+<p>和同班同学一起躲在场边，我假装在聊天，眼睛却不受控制地看向杨波雯。她穿着一身白色的nerdy运动套装，很显眼，我哥家里好像有套一模一样的黑的。
+操场边上有很多女生围在一起写作业，但她在和同学一起打羽毛球。看起来像是专门上过课，很专业的姿势。打球的时候她不像平时那样笑了，发力的时候总爱咬着唇，只有在对方没接住的时候才会笑一下，再抬手擦擦汗。</p>
+
+<p>“喂，看谁呢，这么心不在焉的。”同学撞了下我的肩膀。
+“没谁，我发呆呢。”</p>
+
+<p>“鬼信，你眼睛都快直了。”同学顺着我的视线寻找，“哟，那不是学生会鼎鼎有名的美女学姐吗，你怎么认识上的？”</p>
+
+<p>“没，真不熟，只是她是我哥女朋友才认识的。”</p>
+
+<p>其实我没谈过恋爱，也没见过杨波雯和我哥牵手。但是下午放学我哥总是让我在教室等他到好晚才来找我一起回家。有一次我等他的时候写作业碰见道不会的题，刚抬头准备问同桌就隔着窗户看见他和杨波雯肩并肩走在离校的路上，手上还拎着杨波雯的书包。杨波雯总爱穿白色那套校服，扎得标准的马尾辫跟在后面一摇一摇。看不到正面也知道，她很开心。这么开心，肯定是因为谈恋爱吧。</p>
+
+<p>反正如果是我和杨波雯谈恋爱，我就会很开心。</p>
+
+<p>那为什么我哥还每天在收别人给他送的早餐，为什么对那么多好看女孩温柔地笑，为什么从来不拒绝其他女生鼓起勇气写给他的情书。甚至是在杨波雯面前。</p>
+
+<p>反正如果是我和杨波雯谈恋爱，我绝对不会给其他女生任何一点眼神。</p>
+
+<p>算了，想这些没用的干嘛，和杨波雯谈恋爱的又不是我，是我哥。</p>
+
+<p>百团大战，我被同桌拽着去逛了一圈。看见一个角落被围得水泄不通。想溜到角落纳纳凉，却被同桌拉着钻进人群，被挤得五脏六腑都快错位，还没缓过神来，一抬头看见站在台上跳舞的人竟然是杨博文。我没见过她这个样子，头发好像有点打卷，跟着鼓点飞扬起来。穿的竟然是大人衣服样式的露脐装，白色的短上衣白色的短裤白色的长靴，虽然我不懂得时尚，但是我知道她绝对很好看。她的腰罕见地露出来，好像还能反射出太阳光，亮闪闪。她看见我，朝我眨了一下眼睛，像什么特务接头的暗号，冲着我笑。</p>
+
+<p>我被太阳晒得好热。</p>
+
+<p>没过几天又有迎新会，杨波雯和我哥表演了一个双人舞节目。两人穿着古装，一黑一白，交手又旋转。我哥长得本来就帅，光一打妆一化，简直和男明星有的一拼，台下女孩尖叫连连。杨波雯就更别说，衣袂飘飘地就像仙子下凡，一双眼睛像装了一湖的水，望向观众席的时候我忍不住咽了口口水。</p>
+
+<p>他俩般配得像是那些拗口的文言文里的标准鸳鸯夫妻，那什么，金童玉女，门当户对，举案齐眉，琴瑟和鸣。</p>
+
+<p>杨波雯后面还有节目，所以双人舞结束后她提着白色的古装又走回后台继续准备。我哥倒直接没换装回了观众席，和我坐一起。</p>
+
+<p>我哥一下来，观众席就开始有骚动。先是他认识的各路狐朋狗友都向他吹口哨，他受用得挑眉。然后是接连不断的小纸条，还有胆大的女生拿着微信二维码就来了。他来者不拒，统统加上好友，统统回赠以微笑。但我明明看到备注为“杨波雯”的那个人的消息一直在通知栏弹出，积累了两位数的小红点提醒，我哥一直没点开，忙着给刚加上的女生发问好。</p>
+
+<p>我不想再看。扭过头对着舞台上无聊的诗朗诵表演，掰指头算着杨波雯的下一个节目什么时候到。</p>
+
+<p>过了蛮久，才轮到杨波雯的节目，是压轴钢琴独奏。她穿了一身雪白的公主裙，睫毛在灯光下落了一大片阴影。头发没有和平时一样扎起来，而是全部披下来，铺在露出的蝴蝶骨上。她坐在漆黑的三角钢琴旁边，显得娇小。</p>
+
+<p>她很少穿这么束身的衣服，所以我不由自主地看她的腰。好像一只手就能握住的样子。</p>
+
+<p>不知道我哥有没有试过，有没有像电视剧里的大人一样搂着她的腰一起走过路，应该很幸福吧。</p>
+
+<p>杨波雯弹的是我没听过的歌，不是梦中的婚礼、水边的阿狄丽娜、献给爱丽丝这种很烂大街的，而是首我叫不上名但很高级很好听的，估计是什么古典音乐。</p>
+
+<p>学校的剧场做了特别的扬声结构，钢琴的声音像水一样从四面八方包围过来，漫溢过头顶。听她弹琴我第一次相信那些高山流水阳春白雪的典故。音符真的就像水潺潺流过，像冬天的雪花飘落，我一向被语文老师诟病的比喻都突然灵光顿显，而她像魔法师，操纵四季。我人生第一次没在乐器演奏的节目流着口水睡着，结束的时候只觉得节目时间太短。</p>
+
+<p>剧场很暗，舞台的聚光灯打在她一个人身上，很耀眼。公主裙上闪亮的亮片耀眼，难得戴的珍珠发箍反光得耀眼。她最后提着裙摆谢幕抬头望向观众席的眼眸最耀眼。</p>
+
+<p>但当她环视全场后，深深往我这个方向看的那一眼，又好像太刺眼了。</p>
+
+<p>因为我不用侧头都能感觉到坐在旁边的我哥给她来了一个很洋气的飞吻，她和每次被逗一样，笑得很开心。</p>
+
+<p>我突然就不开心了。有点难过。杨波雯不是很聪明吗，可以考全校第一，可以跳舞跳得那么好，可以弹琴弹得那么好，她为什么就不知道我哥他…我哥他收了那么多女孩的情书，甚至忙着加那些女孩的联系方式根本不点开她发来的消息。她怎么又这么笨呢！</p>
+
+<p>杨波雯表演完之后，换成平时的衣服，蹦蹦跳跳地下台来找我们。散场的时候大家被冲散了，只剩我们仨走在一起。他们俩都没卸妆，在人群里光彩照人得格外引人注目。一团一团的人往外走的时候，总能听见路过的女生发出窃窃的笑声，笑弯了的眼睛瞄着我哥。但第一个上来要联系方式的是一个男生，向杨波雯。杨波雯笑着摇摇头，看了一眼我和我哥的方向，说：”不好意思，不方便。”男生垂头丧气地走了，尴尬得脚差点打结。</p>
+
+<p>“波雯老师可以啊！”</p>
+
+<p>“你可别说我，那边的女生该等急了。”杨波雯抬头示意大门旁边的方向。</p>
+
+<p>刚刚在观众席里踌躇以至于没拿到我哥联系方式的女生这会儿都站在那翘首以盼。我哥偷偷做了个无奈的表情，就往那边走去。</p>
+
+<p>杨波雯还在笑，但是原本大大的卧蚕消失了，嘴巴在咧着笑。</p>
+
+<p>我纠结着，但还是问了：
+“你不难过吗？”</p>
+
+<p>“难过什么？”杨波雯收回目光，看向我的同时好像深吸了一口气，挑了挑眉，<br />
+“你不会以为我俩在谈恋爱吧？”</p>
+
+<p>“…啊？”我作出吃惊的语气。</p>
+
+<p>“没有哦，刚刚我那样表现只是把你哥当挡箭牌啦。而且你哥这种性格，怎么可能放弃满园春色守身如玉啊。”</p>
+
+<p>我表现得很震惊，但答案串联起来终于变得合理了，所以内心意外地平静。</p>
+
+<p>我哥终于开完屏回来，杨波雯给他竖了个大拇指，他乐呵地说，走，咱回家去。</p>
+
+<p>临近期末的一次体育课，老师让我们自由活动，意思是默许回班复习。我坐不住，在校园里闲逛。</p>
+
+<p>之前就有听说这个学校的综合楼造价不菲，有国家标准的实验室、厨艺课用的厨房、手工制陶的教室、击剑馆、合唱团、还有琴房。</p>
+
+<p>我漫无目的地沿着楼梯往上走，临近期末的日子，这些彰显素质教育的选修课全都停了，大家也都很自觉地没往这边走。所以理应很安静。</p>
+
+<p>但我走到二楼的时候就隐隐约约听到琴声。是杨波雯上次在迎新会的独奏曲，我叫不上名的那首古典乐，虽然我也并不知道几首就是了。</p>
+
+<p>琴房在四楼，装修风格很古朴，木色的地板，木色的门框，墙纸贴得像历史课本里的城堡。越往里走琴声越近，走到倒数第二个琴房，我屏住呼吸。</p>
+
+<p>房间的门开了个窗口，装置着长条形的玻璃。就着反光，还能够看见里面的人，是杨波雯。</p>
+
+<p>她弹琴的时候总是散着头发，身体时而前倾发力。光透过窗户直射进去，在空气中产生丁达尔效应，在她的头发上也笼上一层绒绒的辉光。</p>
+
+<p>音乐如水流出，通过门缝把我淹没在原地。愣怔到她一曲弹尽，回头看向门外发现我的存在。她好像惊讶，我不太能分辨。因为她的情绪永远淡淡的，即使此时此刻，她也只是微微扬着眉，露出她惯常的那种笑，暖光洒在她半边脸上，在她脸颊淡淡的绒毛上跳跃。可能因为琴房灰尘太多，导致一切都变得朦胧，我觉得她的脸好像粉粉的水蜜桃，不是平时那样干净的白皙。</p>
+
+<p>“嘿！陈浚铭！”她冲我挥手。这好像是她第一次叫我的名字，我全身的细胞好像都在响应这声呼唤，我几乎要打颤。太离谱了，她是不是隐藏的小魔女，有邪恶的黑魔法。不对，就算是要有，也会是白魔法，好魔法，善良魔法。</p>
+
+<p>“发什么呆呢？你怎么没留在班里自习？”</p>
+
+<p>“太闷了，出来透透气。再说了，你不也溜出来了吗？”我反应过来，有些没把握地据理力争。</p>
+
+<p>她笑笑：“我也太闷了。”</p>
+
+<p>愚钝如我也体察到她心情不好，但又太笨拙。斟酌来去，我楞头问了句：“这是什么曲子？好好听！”</p>
+
+<p>即使说出来我也不会记得吧，柴科夫什么斯基的，太长了。</p>
+
+<p>但意外地，答案很简单。</p>
+
+<p>“无词歌，op.38，No.6”</p>
+
+<p>当然，我意思是前三个字很简单，后面那些英文夹数字的直接被大脑拒之门外。</p>
+
+<p>“你好厉害，弹钢琴也这么厉害。”</p>
+
+<p>“其实很容易，你要学吗？我可以教你啊。”她冲我笑，不知道为什么，好像看到了一丝狡黠的灵光在她眼波间流转。</p>
+
+<p>我应声坐下，和她坐在同一个琴凳上。她手把手教我“手型要像握鸡蛋”“吊臂的时候手腕要放松”“这个就是中央C啦”可能阳光把琴房闷透了，我有点晕晕乎乎，偶尔她的头发擦过我的手臂才让我惊醒一下。</p>
+
+<p>最后连小星星都没有学会，但她还是笑着说：“没关系，已经很好了。你要是有空我还可以教你。”</p>
+
+<p>虽然我哥说《小王子》是本不知所云故弄玄虚的烂书，但从那天之后，我开始像书里的小狐狸一样，期待着每节体育课的到来。从前几天开始我就感觉很快乐，时间越临近，我就越来越感到快乐。约定是一种很神奇的魔法，杨波雯一定是哪个教派的魔女公主，我越来越坚定这个想法。</p>
+
+<p>我和杨波雯的接触也逐渐频繁，不止于每周一次的体育课，偶尔中午不想回家吃饭，我就会趁着我哥和杨波雯一起下楼梯的时候和我哥说我要留校吃食堂，他偶尔陪我，偶尔不陪，但杨波雯每次都会说：“那我也懒得走了，我们一起吃食堂。”我哥偶尔投来诧异的眼光，张张嘴，但从来没问出什么，只是说“好”。</p>
+
+<p>杨波雯在冬天喜欢在校服外面披一件黑色大衣，出门迎风的时候还会围上红色的围巾。比之前倒是更鲜艳了，笑容的弧度也越来越大，甚至我已经想不起刚见面的时候她是怎样笑出那种恰恰好的礼貌弯弧，好像又是另一个样子的杨波雯出现了。</p>
+
+<p>跨年那天，我哥组织一大群朋友唱K，大家都在。还有几个女生是他这个学期刚加上微信的。有一个我记得，长得眼睛是眼睛鼻子是鼻子的，总是不穿校服，大冬天也穿皮短裙，今天也是这样的装扮，好像还有点不一样，但是哪里不一样啊，我没有耐心去想了。</p>
+
+<p>中学生，正是荷尔蒙喷涌的年纪，对成人世界的一切都充满神往和好奇。当然，未成年人喝不了酒，大家虽然略感扫兴，但在这样五光十色的环境下喝果汁也不影响上头。我坐在杨波雯边上，大家在掷色子，吵得很，我们也说不了话。她不太点歌，也没参与他们的真心话大冒险，和我一起坐在一边，看戏看得兴致勃勃。面上不显，但偶尔说几句俏皮话可以成为全场的沸点。</p>
+
+<p>我哥在八轮之后终于输了一次，大家闹哄哄地，说一定要好好整他一次。“左少和离你最近的女生打个kiss啊！”人声哄闹中听不清楚到底是谁提的这么一嘴，但立刻成为了众望所归。气氛随着这个建议的提出已经快要掀破屋顶，甚至听不清KTV里原本在放的歌曲。</p>
+
+<p>我哥也有些愣住，一段时间没动作。汪浚熙眼睛一瞟注意到异样，缓和了一下说：“要不拥抱也行！”我哥倒开朗了，说，没事，亲就亲吧。说完大家开始寻找离他最近的女生。但有两个，左边是和他隔了一个我的杨波雯，右边是和他隔了一个张桂源的皮短裙女生。大家终于领悟到了一点微妙，渐渐噤声。</p>
+
+<p>我哥凝滞片刻，开口：“波雯没参加这个游戏，我们就不伤及无辜了啊。”</p>
+
+<p>说罢就换上他一贯的轻松的表情，走到那个女生身边，俯下身碰了一下她的嘴唇。</p>
+
+<p>全场欢呼沸腾。</p>
+
+<p>我着急地看左边的杨波雯。她没有表情，甚至嘴角坚强地挂着一丝丝弧度。盯着大屏幕上的滚动歌词。</p>
+
+<p>“你不会知道我有多着急/无心的坐视不理/我尴尬的沉默里…”</p>
+
+<p>但我明明白白地知道，她不开心。我看到她耷拉的眼角、僵硬的微笑，看起来好冷，我想要让她暖和点。</p>
+
+<p>所以不知道哪来的晕头般的勇气，我转身抱住她肩膀，收进我的怀里。感觉到她在颤抖，气息不稳，我不想让她哭出来，我知道她不想哭出来。</p>
+
+<p>所以我把她的身体微微推离，盯着她亮晶晶的嘴巴就堵了上去。</p>
+
+<p>“泪水在滴——”歌词终于还是唱到这一句。</p>
+
+<hr />
+
+<p>嘴唇离开的一瞬间像酒醒，清醒得很模糊。耳边还是充斥着大家的尖叫，包房里的灯光变换着各种俗气的颜色。意外地，杨波雯的脸颊并没有淌过想象中的冰冷，她吃惊地看着我，圆圆钝钝的眼睛微微睁大，湿漉漉的。这是我们第一次靠得这么近，近到我可以看见她瞳孔里反射出的我的样子，只有我的样子。</p>
+
+<p>冲动的勇气只能使用一次，我别开目光浑身发烫，逃避眼神接触的时候无意中感受到了来自人群中央的我哥的眼神，好像只是掠过，但又在这个方向放了点重量，没什么特别的情绪，眼神滑走的时候我才偷偷松了一口气。</p>
+
+<p>包房里的空调开得太热，我胸口闷得慌，捞起外套就要走。快要起身的时候忍不住往杨波雯那边看了一眼。她今天穿的是白色的大衣白色的毛衣白色的帽子，缩在角落里像一只落单的受惊小白兔。</p>
+
+<p>就这么脱口而出：“一起走吗？”</p>
+
+<p>小白兔看向我，点了点头。</p>
+
+<p>她和我一起出门的那一刻我就后悔了。包房沉重的门一关上，里面的吵闹就像隔了一层玻璃，其他包房里的鬼哭狼嚎也传出来一点，混在一起。很不舒服的空间。</p>
+
+<p>主要是只有我和她呆在一起，还在我刚刚强吻了她之后。说起来这可是我的初吻，这辈子吻上的第一个女生的嘴唇。刚刚太紧张都没仔细品尝到底是什么味道，不敢看不敢思索别的事情，干脆就这样低头静默着走了一路。</p>
+
+<p>从KTV里出来的一瞬间被冷风拍醒，才发现，昏黄路灯照耀下好像有飘雪的痕迹。站在我身边的杨波雯伸手去接，抬头把视线投向细细碎碎的雪。脸颊藏在白色的毛茸茸的帽子下，像是这个世界最柔软又最脆弱的东西。</p>
+
+<p>冰晶落在毛茸茸的衣服上不会化得太快，她转向我的时候又变成了平时明媚的样子，甚至更为夸张。她突然把包甩给我，深吸了一口气张开双臂拥抱逐渐加重的漫天大雪，像老妈总爱看的偶像剧女主一样，闭上眼睛，睫毛遮盖了小半张脸，承接着小小的雪花。</p>
+
+<p>浑身雪白的她站在昏黄的路灯光影下，倒让这个画面生出了很温暖的假象。我跟着她抬头，发现今天晚上天空黑得彻底，没有星星。</p>
+
+<p>那我当路灯也挺好的，莫名其妙这么想。</p>
+
+<p>-</p>
+
+<p>回到家的时候我哥还没回来，我精疲力尽跌倒在床上，四肢在暖气里慢慢复苏，勇气也莫名其貌回光返照一瞬。</p>
+
+<p>如果毫无下文会不会显得我不负责任？但直接求在一起是不是又太唐突。</p>
+
+<p>我在床上滚来滚去，最后福至心灵想起来无聊的肥皂剧剧情，捡起手机就发了句：“我们可以试试吗？”</p>
+
+<p>刚按完发送键就把手机扔到了房间另一端，一头扎进被子里，不愿意看结果。过了五分钟觉得好漫长，又爬起来把手机捡回来点开微信看看有没有小红点。</p>
+
+<p>循环往复，中间回了好几条别人的微信，但都没等到置顶窗口的那条。我也不知道自己到底想不想看到回复，纠结地等待着，竟然就这么睡着了。</p>
+
+<p>醒来的时候手里还拿着手机，划开屏幕就是和杨波雯的聊天界面，她早上回复的，就一个字“好”。我愣得一下子不知道作何反应，只觉得心脏扑通扑通得像要跳出来一样。我想尖叫想蹦哒想要现在就去找杨波雯抱着她转圈圈。</p>
+
+<p>这是我人生第一次表白，也是第一次谈恋爱，虽然还在“试用期”，但已经足以让我兴奋得手足无措。</p>
+
+<p>-</p>
+
+<p>放假回学校后第一次见面，还是在琴房。外面依旧在下雪，内外温差烘得玻璃窗起了一层水雾。</p>
+
+<p>我刚到的时候她没有在练琴，而是趴在窗户旁边用手写字。写了三个字母，后面跟了个爱心。</p>
+
+<p>我一瞬间竟敢猜测是自己的名字，半犹豫半期待地凑近观察，才发现是她想去的那个大学。虽然我内心的期待并没有说出口，但到底多少有些赧然。她好像也能察觉我的心思，侧头对着我眨了眨眼。</p>
+
+<p>我一下子又被暖风吹得晕眩。</p>
+
+<p>那天教的还是《小星星》，在她身边我的脑子动得好像更慢了，忘指法忘和弦。</p>
+
+<p>她看我有些泄气的样子，就摸了摸我的头，说：“没事，累了是不是要休息呀？”</p>
+
+<p>我哪还会说话，单知道对着她的眼睛点头了。</p>
+
+<p>我休息的时候她就在弹自己的曲子，次数最多的还是《无词歌》，我像之前每一次听到的时候一样，都觉得这首歌有种安静的迷人力量。忍不住问：“为什么你总是弹这首歌呢？”</p>
+
+<p>“因为好听呀。”她笑得有点坏，“想不到吧，是这么简单的理由！”</p>
+
+<p>见我愣住没反应，她瘪了瘪嘴继续说，<br />
+“好吧，其实还因为这首歌也印记着一个很有意思的故事。</p>
+
+<p>我初中的时候带这首曲子去参加比赛，不知道是因为太熟悉还是因为没练好，在场上弹到最后一页第一行的时候脑子突然放空了，全靠手指的肌肉记忆往下接着。</p>
+
+<p>你知道吗，就像失控的火车，你没办法刹车也没办法控制它的方向，只能一直让它往前跑，在等死的同时绞尽脑汁思考怎样才可以死得不那么难看。</p>
+
+<p>我想出来了，在我手指终于不知道下一步做什么的时候，我直接按下了结尾的和弦，强行结束了。</p>
+
+<p>当时很难过，觉得肯定没希望拿奖了。我妈在知道之后直接把刚录好的视频给删了，说留着这种东西真让她丢脸。”</p>
+
+<p>“哎呀你别那种表情，我完全没事的。”她冲我笑着摆手。</p>
+
+<p>“接着说。但是后来出结果的时候、我是那个赛组的第一名，全场的第二名。特别搞笑。”</p>
+
+<p>我第一次听她这么大段地和我分享她以前的故事，禁不住问：“那你是不是很开心很惊喜？”</p>
+
+<p>她扑哧笑出来：“惊喜倒还好啦，没有很惊讶。因为我在台上做决定之前就有想过，这首曲子这么冷门，网上难找到音频资源，评委如果不是专门研究门德尔松的，估计都没听过。</p>
+
+<p>所以就在生死关头赌了一把，就这样赌赢了呗。”</p>
+
+<p>笑里满是狡黠。</p>
+
+<p>杨波雯平时算不上活泼的人，但她此时神采飞扬，殷红的嘴唇一直开开张张，不自觉地，我的目光就被吸引过去。</p>
+
+<p>她在冬天会涂润唇膏，嘴巴亮晶晶的，看起来比那天晚上的更好亲。</p>
+
+<p>所以我又像喝了酒，微微醺的，脑子发晕。渐渐探身打破了同坐在琴凳上的11cm的距离，凑到她的唇前。</p>
+
+<p>时间被拉长，灰尘也停止飞扬。</p>
+
+<p>她的眼睛在嘴唇相碰的前一秒闭上，睫毛刷到我的鼻梁，痒。</p>
+
+<p>如果可以的话我更希望这个吻是我们的初吻，绵长的，柔软的，温暖的。终于尝到了她嘴唇的味道，涂了草莓味的唇膏。</p>
+
+<p>阳光透过玻璃窗照进来，温暖得不像话。</p>
+
+<p>-</p>
+
+<p>从这次之后，我和她的身体好像都熟悉到有了感应。我们在人群中间偷偷牵手，我把她压在器材室的门背后接吻，抱她坐在钢琴上向我敞开。她总是不知情地邀请，用眼神，只要一眼我就能被看得连走路都荒唐。</p>
+
+<p>我们欢笑着走过很多路，她带我在森严的大会上玩对视的游戏。作为优秀标兵发言结束，大家套在校服里鼓掌。她和往常一样向台下鞠躬，标准的九十度，标准的高马尾，标准的好学生模板。</p>
+
+<p>但我总觉得有哪里不一样，是因为她在大庭广众老师校长全校同学的注视下会偷偷盯着我一个人说那句“热爱是勇敢追寻，进一步有进一步的欢喜”吗？</p>
+
+<p>还是因为只有我知道她今天穿的是我买的小兔子袜子呢？</p>
+
+<p>我们的世界运行得很好，彼此环绕着走过一圈又一圈，短短几个月，我们从冬天走出来，在春天的樱花树下跳舞。</p>
+
+<p>可是月球背面依旧藏着太多看不见的陨石坑。</p>
+
+<p>在我抚住她腰的时候，脑子里会蹦出来我哥搂着她腰跳舞的样子；在我们亲吻的时候，她的手机会响起，我哥找她商讨工作事宜；在她教我写作业的时候，锁屏会弹出我哥的消息，她总是不滑开，看一眼ID就笑着把手机翻面……</p>
+
+<p>隐雷埋在分分秒秒中，欢笑转头是不知所措，我们在海上逃亡漂流，我却从来不知道她要去哪。是不是下一秒就会有满载奇珍异宝的泰坦尼克号把她接走，她穿着公主礼裙，站在登船阶梯上转头向我挥手。</p>
+
+<p>她真的会这么干吧，她那么有主意，又那么神秘。即使每次都用力抱住她，但都感觉她下一秒就可能消失了。</p>
+
+<p>我战战兢兢，像走独木桥，冷汗冒尽。</p>
+
+<p>真相总归是要被揭晓的。那天考完试，心情大好。最后一门结束的时候我拎起书包狂奔出考场就冲向杨波雯的楼层，趴在教室门口等她出来。</p>
+
+<p>她还在收拾文具，和边上的同学说说笑笑。人生中总有一些这样的时刻吧，整个场景乱糟糟，但你的眼睛只能聚焦在一个人身上，矢志不渝，其他人全成了被虚化的背景板。</p>
+
+<p>此时此刻我就这么觉得。</p>
+
+<p>所以她走出门口的第一刻，我就冲了过去，把她抱起来转圈圈。身边响起此起彼伏的尖叫和起哄声的时候才后知后觉地意识到，这样好像有点太冲动了。一转头看见我哥左气焊就在身后的时候就更觉得了…他好像想对我笑，但脸上的肌肉略微抽动了一下就没了下文。看了眼我，又看了眼还没从我怀里出来的杨波雯，点了个头，走了。</p>
+
+<p>场面陷入死一般的寂静。</p>
+
+<p>晚上回家的时候，我和我哥在书房写作业。谁也没提白天的尴尬，于是享受了一整晚的如坐针毡。我迅速写完最后一道选择正打算脚底抹油走为上计。</p>
+
+<p>我哥开口了：“怎么没和我说过？”</p>
+
+<p>我化为化石，想要打哈哈混过去：“这…早恋嘛…宣扬出来多不好…”</p>
+
+<p>“把我蒙在鼓里很有意思吗？”他放下笔，抬头寻找我的视线。</p>
+
+<p>太强势了，第一次看见他冷冽的样子，比跨年夜那天的雪还冻人。</p>
+
+<p>想起那天晚上，我心里又平添了些不爽。把杨波雯欺负哭的是他，和杨波雯跳舞的人是他，被同学悄悄评出来的杨波雯公认最佳cp是他，给杨波雯发短信打电话的是他，质问我为什么不把和杨波雯谈恋爱这件事告诉他的也是他。凭什么他永远高高在上永远理所当然，明明那样不珍惜她，凭什么在这里盘问我？</p>
+
+<p>“没意思，没有特地瞒你，但我和杨波雯谈恋爱，为什么要和你打报告呢？”话再出口，竟带了些我自己都没意料到的怒气。</p>
+
+<p>“因为我是你哥。”他竟然说出这么无聊的话。</p>
+
+<p>“你听听你自己信吗？”</p>
+
+<p>书房里安静得很窒息，初春的夜里，只有空调在呼呼运转。</p>
+
+<p>他擅于讲场面话，在社交的一颔首一挑眉之中表明万千，就连决裂也永远保持体面的好看。大概是没想到有一天要面对我这样毫不掩饰地把局面撕开的人。</p>
+
+<p>“因为她喜欢的是我。”他终于憋出一句话，但说得还是那样笃定而真切。</p>
+
+<p>“你别这么自恋左奇函——”</p>
+
+<p>我话还没说完，他突然爆发起来：“你才认识她多久？你以为她是什么完美好学生吗？你懂她吗？你什么都不知道，一上来就知道亲亲抱抱。和她认识过这么多年的人是我，每次和她一起站上领奖台的人是我，给她眼泪的人是我，教她喝酒的人是我，要和她考一个大学的人是我。不是你，从来都不是你。”</p>
+
+<p>左奇函罕见的失控。但他确实说的都切中要害，每一句话都像飞刃直刺心脏。</p>
+
+<p>我憋着气又憋着泪，咬牙问：“那你为什么要亲别的女生？既然喜欢她，这么多年为什么都不和她在一起？为什么非要让她流眼泪？</p>
+
+<p>凭什么你不敢和她在一起就不允许别人勇敢？懦弱的人没有角逐胜利席位的资格。”</p>
+
+<p>他听完之后好像突然卸去了所有力气，不再有刚刚那股快要火山喷发的气焰，只是低头咬着牙，像有很多话要说，但最终一句都没说出来。</p>
+
+<p>我们就这样沉默着，对峙着。直到听见外面好像有动静，我转头抱着书就往外走，和伯母说要找同学问作业就逃也似地离开了他们的家。</p>
+
+<p>本来就是背井离乡来省城上学，在这里人生地不熟，大半夜脑子一热离家出走，倒是被冻人的初春晚风吹得冷静到冰凉。</p>
+
+<p>不知道去哪。</p>
+
+<p>脚步却自动把我导航到了杨波雯家楼下。</p>
+
+<p>杨波雯和我哥住在同一个小区，真是走两步路就到了的距离。</p>
+
+<p>想起来我哥那句笃定的“她喜欢我”我就心里烦躁，几个月盘旋不下的疑惑，我再也按耐不住。</p>
+
+<p>拨通杨博文的电话，她一接起甚至没来得及应声，我的问题就倾吐而出。</p>
+
+<p>“你喜欢左气焊对吗？”</p>
+
+<p>那边没回应，静默了。</p>
+
+<p>我心里暗嘲自己是个笑话，打算挂电话再窝窝囊囊走回左奇函家。脚还没挪出第一步，听筒传来她的声音，<br />
+“你在哪？我来找你。”</p>
+
+<p>我尽量憋住自己的哭腔回应：“你家楼下。”</p>
+
+<p>接着电话那边就是急促的脚步声，哒哒哒的拖鞋下楼的声音，最后是门打开吱呀的声音。</p>
+
+<p>然后她站在了我面前。</p>
+
+<p>她的家居服也是全白的，拖鞋也是，毛茸茸，完全是娇生惯养的小白兔。</p>
+
+<p>暖黄灯光为背景，她向我小跑过来。</p>
+
+<p>“怎么好端端跑出来了，还问这么傻的问题。”她用手捧住我的脸，温暖传递过来的时候我才意识到脸有多冷。</p>
+
+<p>我反抓住她的手，难得的强硬，“所以呢，你喜欢他吗？”</p>
+
+<p>她只是笑，甚至歪着头使坏。“你猜？”</p>
+
+<p>我猜？我猜那就是你喜欢他。</p>
+
+<p>她看我逐渐气急败坏，又用力揉了揉我的脸，<br />
+“当然不喜欢了，我喜欢他为什么还要和你在一起啊？”</p>
+
+<p>“可是，所有人都觉得你们般配，他那么聪明，肯定比我更懂你。而且…你还为他哭过…”我越说越小声，悄悄抬眼看她反应，怕自己说错话又惹得她不开心。</p>
+
+<p>她看起来还是明媚着，和我讲，“别人觉得是就是了吗？我今天磕cp说你俩很配，你俩就原地结婚呐？”</p>
+
+<p>我觉得她讲的还怪有道理的，松懈下来，刚刚和眼泪一起流出来的鼻涕不小心笑出了一个泡。</p>
+
+<p>看我因为这个无聊的笑话破涕为笑，她终于放心了一些，</p>
+
+<p>“况且，懂一个人其实哪有那么难。无非是看对方愿不愿意坦白。比起所谓的“般配”，有没有爱和勇气才是最重要呐。如果一个人不敢爱人，那就像是无脚鸟，尽可以游戏人间，但永远找不到自己的归处。”</p>
+
+<p>她眼神微敛，接着说：<br />
+“浚铭，可能暂时你还不能明白。有些人，他们不知道自己的心之所向是什么，永远在游荡，永远在试探，永远在给自己找退路。他们不敢赌，不敢为爱奔赴。他们输不起。”</p>
+
+<p>“浚铭，会爱人才是最伟大的魔法，这是别人教不会的能力。”</p>
+
+<p>她盯着我的眼睛，那么认真地和我讲。她就这样把清澈展露在我的眼前。<br />
+“和你在一起之前，我一直以为爱就是隐而不发的对峙和痛苦。是你告诉我，爱就是往前冲，不顾一切后果的那样，纯真地在阳光下坦荡地说爱。你才懂我呢，因为你最懂爱。”<br />
+她仰头看着我，脸冻得通红。我情不自禁地抬手用自己胡乱缠起的围巾把她裹紧来，贴在一起就会暖和点吧。她可不能受冻。<br />
+“所以呢？”我享受着搂住她的餍足。<br />
+“所以什么？”声音从围巾传来，闷闷的。<br />
+“所以你喜欢谁？”<br />
+“我喜欢我男朋友呀，谁是我男朋友？”她从围巾里探出头来，冲我笑得狡黠。<br />
+趁我没反应过来，转身就逃跑了。</p>
+
+<p>“男朋友你好。”手机突然亮屏，是她的消息，没头没脑地给我发了一句。<br />
+所以我这是，过试用期了？</p>
+
+<p>我看着她上楼，房间灯重新亮起，窗户被推开。她探出头，冲着我挥手，做着夸张口型说：“快回家！外面冷！”</p>
+
+<p>透过窗户还能看见她的钢琴和散落在架子上的琴谱。黑得发亮的长发披下来，被风吹得散乱。我看着她故作张牙舞爪的可爱样子，衬着房间里透出来的暖黄灯光，差点产生我们拥有着同一个小家的幻觉。</p>
+
+<p>其实我也不懂爱。只是她好像又在弹失控的《无词歌》，在撞上墙的前一霎那，她找到了我这个合适的和弦，所以当机立断地选择了我。</p>
+
+<p>谁也不知道到底是谁侥幸逃脱，但此时此刻，我愿意就这样糊里糊涂送她站上领奖台，让她做永远胜利的杨波雯。</p>
+
+<p>【完】</p>
+
+<hr />
+
+<p><a href="https://weibo.com/7835284454/4954316273619122">微博发布版本</a></p>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2023/10/07/%E5%A5%87%E6%96%87-%E6%98%9F%E6%98%9F/" data-toggle="tooltip" data-placement="top" title="【奇文】星星">
+                        Previous<br>
+                        <span>【奇文】星星</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2024/04/23/blog/" data-toggle="tooltip" data-placement="top" title="这个blog如何诞生">
+                        Next<br>
+                        <span>这个blog如何诞生</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        
+        
+        
+                <a data-sort="0004" 
+                    href="/archive/?tag=%E8%BF%BD%E6%98%9F%E4%BA%A7%E5%87%BA"
+                    title="追星产出"
+                    rel="3">追星产出</a>
+        
+                <a data-sort="0005" 
+                    href="/archive/?tag=%E5%A5%87%E6%96%87"
+                    title="奇文"
+                    rel="2">奇文</a>
+    </div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+<hr>
+<h5>FRIENDS</h5>
+<ul class="list-inline">
+  
+  <li><a href="https://weibo.com/u/7818406993">家367</a></li>
+  
+</ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/u/7835284454">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/lfq0921">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="mailto:vanky0921@gmail.com">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; My Hogwarts 2024
+                    <br>
+                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
+                        height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual 
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason, 
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure 
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

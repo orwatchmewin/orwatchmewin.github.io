@@ -1,7 +1,7 @@
 # Site settings
 title: My Hogwarts
 SEOTitle: 自由自留地
-header-img: img/bg-me-boston.JPG
+header-img: img/home-bg-sunrise.JPG
 email: vanky0921@gmail.com
 description: "Far Free"
 keyword: ""
@@ -60,7 +60,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: fanqilin
+# disqus_username: fanqilin
 
 # Netease settings
 netease_comment: false
